@@ -26,14 +26,14 @@ Sprite.prototype.createElement = function() {
 Sprite.prototype.appendTo = function(element) {
   element.appendChild(this.element);
   return this;
-}
+};
 
 Sprite.prototype.setBackgroundImage = function() {
   this.element.style.backgroundImage = 'url(' + this.spriteSheet.image + ')';
   this.element.style.backgroundRepeat = 'no-repeat';
-  this.element.style.width = this.spriteSheet.width + "px";
-  this.element.style.height = this.spriteSheet.height + "px";
-}
+  this.element.style.width = this.spriteSheet.width + 'px';
+  this.element.style.height = this.spriteSheet.height + 'px';
+};
 
 Sprite.prototype.updateBackgroundPosition = function() {
   var row = Math.ceil(this.currentSprite / this.spriteSheet.cols) - 1,
@@ -45,12 +45,12 @@ Sprite.prototype.updateBackgroundPosition = function() {
   var yPos = row * this.spriteSheet.height * -1,
       xPos = col * this.spriteSheet.width * -1;
 
-  this.element.style.backgroundPosition = xPos + "px " + yPos + "px";
+  this.element.style.backgroundPosition = xPos + 'px ' + yPos + 'px';
 };
 
 Sprite.prototype.requestAnimationFrame = function() {
   var sprite = this;
-  requestAnimationFrame(function() {
+  window.requestAnimationFrame(function() {
     sprite.nextFrame();
     sprite.updateBackgroundPosition();
     sprite.requestAnimationFrame();
