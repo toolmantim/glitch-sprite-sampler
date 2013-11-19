@@ -18,6 +18,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+a {
+  color: #c33991;
+}
+
 p.where {
   margin-top: 0;
 }
