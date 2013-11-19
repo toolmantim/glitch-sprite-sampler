@@ -49,11 +49,11 @@ Sprite.prototype.updateBackgroundPosition = function() {
 };
 
 Sprite.prototype.requestAnimationFrame = function() {
-  var piglet = this;
+  var sprite = this;
   requestAnimationFrame(function() {
-    piglet.nextFrame();
-    piglet.updateBackgroundPosition();
-    piglet.requestAnimationFrame();
+    sprite.nextFrame();
+    sprite.updateBackgroundPosition();
+    sprite.requestAnimationFrame();
   });
 };
 
