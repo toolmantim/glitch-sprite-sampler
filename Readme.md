@@ -1,6 +1,6 @@
 # Glitch Sprite Sampler
 
-On 19 November 2013 [Tiny Speck](http://tinyspeck.com/), the makers of [Glitch](http://www.glitchthegame.com/), released all of the game’s assets into the public domain.
+On 19 November 2013 [Tiny Speck](http://tinyspeck.com/), the makers of [Glitch](http://www.glitchthegame.com/), released all of the game’s assets into the public domain (because they are legends).
 
 * http://www.glitchthegame.com/public-domain-game-art/
 * http://github.com/tinyspeck
