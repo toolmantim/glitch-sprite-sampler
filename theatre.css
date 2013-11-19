@@ -3,18 +3,30 @@
 body {
   padding: 20px;
   text-align: center;
-  font: 16px/1.4 "Helvetica Neue", Helvetica, sans-serif;
+  font: 200 16px/1.4 "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
+}
+
+body > * {
+  margin: 40px auto;
 }
 
 h1 {
   font-weight: 100;
   font-size: 72px;
   line-height: 1.1;
+  margin-bottom: 20px;
 }
 
-body > * {
-  margin: 40px auto;
+p.where {
+  margin-top: 0;
+}
+p.where a {
+  color: #999;
+  text-decoration: none;
+}
+p.where a:hover {
+  text-decoration: underline;
 }
 
 .sprites {
@@ -27,4 +39,8 @@ body > * {
   margin: 10px;
   display: inline-block;
   vertical-align: middle;
+}
+
+footer {
+  font-size: 11px;
 }
