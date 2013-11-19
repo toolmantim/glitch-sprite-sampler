@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; }
+
+body {
+  padding: 20px;
+  text-align: center;
+  font: 16px/1.4 "Helvetica Neue", Helvetica, sans-serif;
+  color: #666;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+body > * {
+  margin: 40px auto;
+}
+
+.sprites {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sprite {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
